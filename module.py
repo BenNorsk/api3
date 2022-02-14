@@ -12,3 +12,12 @@ def clean_data(data):
         currencies[coin["id"]] = currency
     return currencies
 
+# This gets the fundamental data for "/"
+def get_brand_data():
+    brand_data = {
+        "logo": "images/brand_images/logo.png",
+        "logo_long": "images/brand_images/logo_long.png",
+        "blockchain": "images/brand_images/blockchain.jpeg"
+    }
+    return brand_data
+
