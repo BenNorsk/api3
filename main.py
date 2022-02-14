@@ -3,7 +3,12 @@ import requests
 import json
 import os
 from module import clean_data
+from board_member_data import get_board_members
 app = Flask(__name__)
+
+@app.route('/')
+def welcome():
+    return {"Welcome to the Crypto Society Web API"}
 
 @app.route('/prices')
 def prices():
@@ -19,4 +24,4 @@ def prices():
   
 @app.route('/board-members')
 def board_members():
-  return 'Hello from Server'
+  return get_board_members()

@@ -91,3 +91,4 @@ def get_board_members():
         "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "events@cryptosocietystgallen.club"}
     }
+    return board_members
