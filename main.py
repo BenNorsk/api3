@@ -12,8 +12,11 @@ app = Flask(__name__)
 def welcome():
     data = {"title": "Crypto Society St. Gallen", 
             "welcome_text": "The Crypto Society is a newly founded assosciation by students in St. Gallen. We strive to bring the emerging universe of cryptocurrencies closer to the students in St. Gallen. As laid out in our Whitepaper, we want to build a community and serve as a hub for all the local crypto-enthusiastic students! We warmly welcome anyone who wants to join the Crypto Society as a member, and would be happy to receive your application!",
-            "member_link": "https://docs.google.com/forms/d/e/1FAIpQLSeP7INDPgUYb8nCraOel61WOgFn48dnii5fDMLcyTTBI8XIeg/viewform"
+            "member_link": "https://docs.google.com/forms/d/e/1FAIpQLSeP7INDPgUYb8nCraOel61WOgFn48dnii5fDMLcyTTBI8XIeg/viewform",
+            "linked_in": "https://www.linkedin.com/company/cryptosocietystgallen/mycompany/",
+            "instagram": "https://www.instagram.com/cryptosocietystgallen/"
     }
+    return data
 
 
 
@@ -40,3 +43,7 @@ def board_members():
 @app.route("/posts")
 def posts():
     return get_posts_data()
+
+@app.route("/documents")
+def documents():
+    return get_documents()
