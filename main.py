@@ -5,7 +5,8 @@ import os
 from module import clean_data, get_brand_data
 from board_member_data import get_board_members
 from posts_data import get_posts_data
-from academics_data import get_academics_data
+from document_data import get_documents
+
 app = Flask(__name__)
 
 @app.route("/")
