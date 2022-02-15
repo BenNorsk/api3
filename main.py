@@ -8,6 +8,7 @@ from posts_data import get_posts_data
 from document_data import get_documents
 
 app = Flask(__name__)
+base_link = "https://raw.githubusercontent.com/BenNorsk/api-data/master/"
 
 @app.route("/")
 def welcome():
@@ -23,7 +24,7 @@ def welcome():
 
 @app.route('/brand')
 def brand():
-    return get_brand_data()
+    return get_brand_data(base_link)
 
 @app.route('/prices')
 def prices():
@@ -39,12 +40,12 @@ def prices():
   
 @app.route('/board-members')
 def board_members():
-  return get_board_members()
+  return get_board_members(base_link)
 
 @app.route("/posts")
 def posts():
-    return get_posts_data()
+    return get_posts_data(base_link)
 
 @app.route("/documents")
 def documents():
-    return get_documents()
+    return get_documents(base_link)

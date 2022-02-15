@@ -13,11 +13,11 @@ def clean_data(data):
     return currencies
 
 # This gets the fundamental data for "/"
-def get_brand_data():
+def get_brand_data(base_url):
     brand_data = {
-        "logo": "images/brand_images/logo.png",
-        "logo_long": "images/brand_images/logo_long.png",
-        "blockchain": "images/brand_images/blockchain.jpeg"
+        "logo": f'{base_url}images/brand_images/logo.png',
+        "logo_long": f'{base_url}images/brand_images/logo_long.png',
+        "blockchain": f'{base_url}images/brand_images/blockchain.jpeg'
     }
     return brand_data
 
