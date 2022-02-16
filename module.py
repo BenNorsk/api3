@@ -1,4 +1,11 @@
 # This cleans the data of the /prices api a bit.
+def up_or_down(num):
+    if num > 0:
+        return "up"
+    else:
+        return "down"
+
+
 def clean_data(data):
     currencies = {}
     for coin in data:
@@ -6,7 +13,9 @@ def clean_data(data):
         currency["id"] = coin["id"]
         currency["name"] = coin["name"]
         currency["logo_url"] = coin["logo_url"]
-        currency["price"] = coin["price"]
+        currency["price"] = f'{float(coin["price"]):.2f}'
+        num = float(coin["1d"]["price_change_pct"])
+        currency["change"] = up_or_down(num)
         currency["market_cap_dominance"] = coin["market_cap_dominance"]
         currency["daily_price_change"] = coin["1d"]["price_change_pct"]
         currencies[coin["id"]] = currency
