@@ -10,3 +10,4 @@ def get_posts_data(base_url):
                 "link": "https://www.instagram.com/p/CX68HwTNLfj/"
             }
     }
+    return posts
