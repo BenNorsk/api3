@@ -33,7 +33,7 @@ def get_board_members(base_url):
         "title": "Head of Crypto Projects",
         "name": "Robert Jacobs",
         "image": f'{base_url}images/position_images/legal-affairs.jpeg',
-        "board_member_image": f'{base_url}images/board_member_images/legal-affairs.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/crypto-projects.png',
         "short_description": "Coming soon.",
         "email": "crypto-projects@cryptosocietystgallen.club",
         "order": "4"
@@ -78,7 +78,7 @@ def get_board_members(base_url):
         "title": "Co–Head of Academic Affairs",
         "name": "Victor Hoppe",
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
-        "board_member_image": f'{base_url}images/board_member_images/academic-affairs.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/academic-affairs2.png',
         "short_description": "Coming soon.",
         "email": "academic-affairs@cryptosocietystgallen.club",
         "order": "9"
