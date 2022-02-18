@@ -1,8 +1,8 @@
 # This function returns all board members
 
 def get_board_members(base_url):
-    board_members = {
-    "president": {
+    board_members = [
+    {
         "title": "President",
         "name": "Benjamin L. Brückner",
         "image": f'{base_url}images/position_images/president.jpeg',
@@ -11,7 +11,7 @@ def get_board_members(base_url):
         "email": "president@cryptosocietystgallen.club",
         "order": "1"
         },
-    "vice_president": {
+        {
         "title": "Vice-President",
         "name": "Gian O. Mühlemann",
         "image": f'{base_url}images/position_images/vice-president.png',
@@ -20,7 +20,7 @@ def get_board_members(base_url):
         "email": "vice-president@cryptosocietystgallen.club",
         "order": "2"
     },
-    "head_of_legal_affairs": {
+    {
         "title": "Head of Legal Affairs",
         "name": "Jan Scherrer",
         "image": f'{base_url}images/position_images/legal-affairs.jpeg',
@@ -29,7 +29,7 @@ def get_board_members(base_url):
         "email": "legal-affairs@cryptosocietystgallen.club",
         "order": "3"
     },
-    "head_of_crypto_projects": {
+    {
         "title": "Head of Crypto Projects",
         "name": "Robert Jacobs",
         "image": f'{base_url}images/position_images/legal-affairs.jpeg',
@@ -38,7 +38,7 @@ def get_board_members(base_url):
         "email": "crypto-projects@cryptosocietystgallen.club",
         "order": "4"
         },
-    "chief_of_staff": {
+    {
         "title": "Chief of Staff",
         "name": "Sanna Mühlemann",
         "image": f'{base_url}images/position_images/staff.jpeg',
@@ -47,7 +47,7 @@ def get_board_members(base_url):
         "email": "chief-of-staff@cryptosocietystgallen.club",
         "order": "5"
         },
-    "vice_chief_of_staff": {
+    {
         "title": "Vice Chief of Staff",
         "name": "Mariska–Morgaine Rüger",
         "image": f'{base_url}images/position_images/staff.jpeg',
@@ -56,7 +56,7 @@ def get_board_members(base_url):
         "email": "chief-of-staff@cryptosocietystgallen.club",
         "order": "6"
         },
-    "head_of_finance": {
+    {
         "title": "Head of Finance",
         "name": "Elias Henke",
         "image": f'{base_url}images/position_images/finance.jpg',
@@ -65,7 +65,7 @@ def get_board_members(base_url):
         "email": "finance@cryptosocietystgallen.club",
         "order": "7"
     },
-    "head_of_academic_affairs1": {
+    {
         "title": "Co–Head of Academic Affairs",
         "name": "Malte Knauer",
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
@@ -74,7 +74,7 @@ def get_board_members(base_url):
         "email": "academic-affairs@cryptosocietystgallen.club",
         "order": "8"
     },
-    "head_of_academic_affairs2": {
+    {
         "title": "Co–Head of Academic Affairs",
         "name": "Victor Hoppe",
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
@@ -83,7 +83,7 @@ def get_board_members(base_url):
         "email": "academic-affairs@cryptosocietystgallen.club",
         "order": "9"
     },
-    "head_of_marketing": {
+    {
         "title": "Head of Marketing",
         "name": "Sandro Gössi",
         "image": f'{base_url}images/position_images/marketing.jpeg',
@@ -92,7 +92,7 @@ def get_board_members(base_url):
         "email": "marketing@cryptosocietystgallen.club",
         "order": "10"
     },
-    "head_of_events1": {
+    {
         "title": "Co–Head of Events",
         "name": "Davide Brunetti",
         "image": f'{base_url}images/position_images/socials.jpeg',
@@ -101,7 +101,7 @@ def get_board_members(base_url):
         "email": "social-events@cryptosocietystgallen.club",
         "order": "11"
         },
-    "head_of_events2": {
+    {
         "title": "Co–Head of Events",
         "name": "Andre Lubawin",
         "image": f'{base_url}images/position_images/socials.jpeg',
@@ -110,5 +110,5 @@ def get_board_members(base_url):
         "email": "events@cryptosocietystgallen.club",
         "order": "12"
         }
-    }
+    ]
     return board_members
