@@ -15,7 +15,7 @@ def get_board_members(base_url):
         "title": "Vice-President",
         "name": "Gian O. Mühlemann",
         "image": f'{base_url}images/position_images/vice-president.png',
-        "board_member_image": f'{base_url}images/board_member_images/vice-president.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/vice-president.png',
         "short_description": "As Vice-President, I support and advise the president in his operative and strategic tasks. Together we lead and assist the Board in creating a growing cryptosociety.",
         "email": "vice-president@cryptosocietystgallen.club",
         "order": "2"
@@ -51,7 +51,7 @@ def get_board_members(base_url):
         "title": "Vice Chief of Staff",
         "name": "Mariska–Morgaine Rüger",
         "image": f'{base_url}images/position_images/staff.jpeg',
-        "board_member_image": f'{base_url}images/board_member_images/staff.png',
+        "board_member_image": f'{base_url}images/board_member_images/vice-chief-of-staff.png',
         "short_description": "As Vice Chief of Staff, I am your first point of contact. I will make sure to help you if there are any issues or questions regarding to our society.",
         "email": "chief-of-staff@cryptosocietystgallen.club",
         "order": "6"
@@ -70,7 +70,7 @@ def get_board_members(base_url):
         "name": "Malte Knauer",
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/academic-affairs.jpg',
-        "short_description": "As Co–Head of Academic Affairs, I develop and plan how knowledge about crypto is shared throughout the society.",
+        "short_description": "Together, we define how knowledge is shared throughout the society.",
         "email": "academic-affairs@cryptosocietystgallen.club",
         "order": "8"
     },
@@ -79,7 +79,7 @@ def get_board_members(base_url):
         "name": "Victor Hoppe",
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/academic-affairs2.png',
-        "short_description": "Coming soon.",
+        "short_description": "Together, we define how knowledge is shared throughout the society.",
         "email": "academic-affairs@cryptosocietystgallen.club",
         "order": "9"
     },
@@ -104,7 +104,7 @@ def get_board_members(base_url):
     {
         "title": "Co–Head of Events",
         "name": "Andre Lubawin",
-        "image": f'{base_url}images/position_images/socials.jpeg',
+        "image": f'{base_url}images/position_images/events2.jpg',
         "board_member_image": f'{base_url}images/board_member_images/socials.jpg',
         "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "events@cryptosocietystgallen.club",
