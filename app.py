@@ -60,7 +60,7 @@ def welcome():
             "prices": {**prices},
             "posts": {**posts_data},
             "documents": {**documents_data},
-            "board": {**board_data}   
+            "board": board_data   
     }
     data = {**brand_data, **standard_data}
     return data
