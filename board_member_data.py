@@ -34,7 +34,7 @@ def get_board_members(base_url):
         "name": "Robert Jacobs",
         "image": f'{base_url}images/position_images/legal-affairs.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/crypto-projects.png',
-        "short_description": "Coming soon.",
+        "short_description": "As Head of Crypto Projects, I oversee the practical projects that the Society is developping in the real of crypto.",
         "email": "crypto-projects@cryptosocietystgallen.club",
         "order": "4"
         },
@@ -53,7 +53,7 @@ def get_board_members(base_url):
         "image": f'{base_url}images/position_images/staff.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/vice-chief-of-staff.png',
         "short_description": "As Vice Chief of Staff, I am your first point of contact. I will make sure to help you if there are any issues or questions regarding to our society.",
-        "email": "chief-of-staff@cryptosocietystgallen.club",
+        "email": "vice-chief-of-staff@cryptosocietystgallen.club",
         "order": "6"
         },
     {
@@ -89,7 +89,7 @@ def get_board_members(base_url):
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/academic_analyst.png',
         "short_description": "Coming Soon.",
-        "email": "academic-affairs@cryptosocietystgallen.club",
+        "email": "johannes.hohl@student.unisg.ch",
         "order": "10"
     },
     {
@@ -98,7 +98,7 @@ def get_board_members(base_url):
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/academic_analyst2.jpeg',
         "short_description": "As Academic Analyst, I work together with the Academic Affairs team in creating relevant and interesting content for our members.",
-        "email": "academic-affairs@cryptosocietystgallen.club",
+        "email": "raffaello.erculiani@student.unisg.ch",
         "order": "11"
     },
     {
@@ -134,7 +134,7 @@ def get_board_members(base_url):
         "image": f'{base_url}images/position_images/events2.jpg',
         "board_member_image": f'{base_url}images/board_member_images/events_co_manager.png',
         "short_description": "As Events Co–Manager, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
-        "email": "events@cryptosocietystgallen.club",
+        "email": "laura.carrieri@student.unisg.ch",
         "order": "15"
         }
     ]

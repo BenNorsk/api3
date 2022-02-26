@@ -30,8 +30,8 @@ def get_posts_data(base_url):
                 "image": f'{base_url}images/position_images/finance.jpg',
                 "author": "Malte Knauer & Victor Hoppe",
                 "publication_date": "20.02.2022",
-                "content": "The Crypto Society has launched its official store. Acquire the exclusive Crypto Society hoodies today, or check out our other creations!",
-                "link": "https://www.etsy.com/ch/shop/CryptoSociety?ref=simple-shop-header-name&listing_id=1178701383",
+                "content": "As an Academic Analyst, you are at the core of knowledge of the entire Society. You learn from your team, and you teach your insights to all members of the society. Therefore, apply as an Academic Analyst to join the  Crytpo Society's Academics Team!",
+                "link": "mailto:academic-affairs@cryptosocietystgallen.club",
                 "link_text": "Apply!"
             },
             {
