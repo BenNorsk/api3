@@ -26,7 +26,8 @@ def get_brand_data(base_url):
     brand_data = {
         "logo": f'{base_url}images/brand_images/logo.png',
         "logo_long": f'{base_url}images/brand_images/logo_long.png',
-        "blockchain": f'{base_url}images/brand_images/blockchain.jpeg'
+        "blockchain": f'{base_url}images/brand_images/blockchain.jpeg',
+        "logo_text": f'{base_url}images/brand_images/logo_text.png'
     }
     return brand_data
 
