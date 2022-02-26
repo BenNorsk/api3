@@ -84,13 +84,31 @@ def get_board_members(base_url):
         "order": "9"
     },
     {
+        "title": "Academic Analyst",
+        "name": "Johannes Hohl",
+        "image": f'{base_url}images/position_images/academic-affairs.jpeg',
+        "board_member_image": f'{base_url}images/board_member_images/academic_analyst.png',
+        "short_description": "Coming Soon.",
+        "email": "academic-affairs@cryptosocietystgallen.club",
+        "order": "10"
+    },
+    {
+        "title": "Academic Analyst",
+        "name": "Raffaello Erculiani",
+        "image": f'{base_url}images/position_images/academic-affairs.jpeg',
+        "board_member_image": f'{base_url}images/board_member_images/academic-affairs2.png',
+        "short_description": "Coming Soon.",
+        "email": "academic-affairs@cryptosocietystgallen.club",
+        "order": "11"
+    },
+    {
         "title": "Head of Marketing",
         "name": "Sandro Gössi",
         "image": f'{base_url}images/position_images/marketing.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/marketing.jpg',
         "short_description": "As Head of Marketing, I lead all marketing activities from social media, branding and digital campaigns to advertising and creative projects. Your vibe attracts your tribe!",
         "email": "marketing@cryptosocietystgallen.club",
-        "order": "10"
+        "order": "12"
     },
     {
         "title": "Co–Head of Events",
@@ -99,16 +117,25 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/socials.jpg',
         "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "social-events@cryptosocietystgallen.club",
-        "order": "11"
+        "order": "13"
         },
     {
         "title": "Co–Head of Events",
         "name": "Andre Lubawin",
+        "image": f'{base_url}images/position_images/socials.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/events2.jpg',
+        "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
+        "email": "events@cryptosocietystgallen.club",
+        "order": "14"
+        },
+    {
+        "title": "Events Co–Manager",
+        "name": "Laura Carrieri",
         "image": f'{base_url}images/position_images/events2.jpg',
         "board_member_image": f'{base_url}images/board_member_images/socials.jpg',
         "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "events@cryptosocietystgallen.club",
-        "order": "12"
+        "order": "15"
         }
     ]
     return board_members
