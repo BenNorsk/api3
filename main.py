@@ -75,6 +75,7 @@ def welcome():
             "followers": "100+",
             "store_link": "https://www.etsy.com/ch/shop/CryptoSociety?ref=simple-shop-header-name&listing_id=1164741068",
             "store_text": "The Crypto Society has launched its official store. Acquire the exclusive Crypto Society hoodies today, or check out our other creations!",
+            "store_img": "https://raw.githubusercontent.com/BenNorsk/api-data/master/images/post_images/store-post/store.png",
             "prices": {**get_prices()},
             "posts": posts_data,
             "documents": {**documents_data},
