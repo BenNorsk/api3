@@ -65,7 +65,7 @@ def welcome():
     posts_data = get_posts_data(base_url)
     documents_data = get_documents(base_url)
     standard_data = {"title": "Crypto Society St. Gallen", 
-            "welcome_text": "The Crypto Society is a newly founded assosciation by students in St. Gallen. We strive to bring the emerging universe of cryptocurrencies closer to the students in St. Gallen. As laid out in our Whitepaper, we want to build a community and serve as a hub for all the local crypto-enthusiastic students! We warmly welcome anyone who wants to join the Crypto Society as a member, and would be happy to receive your application!",
+            "welcome_text": "The Crypto Society is the number one address for crypto enthusiastic students in St. Gallen! Join up to meet like–minded people, deepen your knowledge about crypto and emerge in this world-changing industry!",
             "member_link": "https://docs.google.com/forms/d/e/1FAIpQLSeP7INDPgUYb8nCraOel61WOgFn48dnii5fDMLcyTTBI8XIeg/viewform",
             "linked_in": "https://www.linkedin.com/company/cryptosocietystgallen/mycompany/",
             "instagram": "https://www.instagram.com/cryptosocietystgallen/",

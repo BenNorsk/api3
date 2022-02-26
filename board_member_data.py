@@ -96,8 +96,8 @@ def get_board_members(base_url):
         "title": "Academic Analyst",
         "name": "Raffaello Erculiani",
         "image": f'{base_url}images/position_images/academic-affairs.jpeg',
-        "board_member_image": f'{base_url}images/board_member_images/academic-affairs2.png',
-        "short_description": "Coming Soon.",
+        "board_member_image": f'{base_url}images/board_member_images/academic_analyst2.jpeg',
+        "short_description": "As Academic Analyst, I work together with the Academic Affairs team in creating relevant and interesting content for our members.",
         "email": "academic-affairs@cryptosocietystgallen.club",
         "order": "11"
     },
@@ -132,8 +132,8 @@ def get_board_members(base_url):
         "title": "Events Co–Manager",
         "name": "Laura Carrieri",
         "image": f'{base_url}images/position_images/events2.jpg',
-        "board_member_image": f'{base_url}images/board_member_images/socials.jpg',
-        "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
+        "board_member_image": f'{base_url}images/board_member_images/events_co_manager.png',
+        "short_description": "As Events Co–Manager, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "events@cryptosocietystgallen.club",
         "order": "15"
         }
