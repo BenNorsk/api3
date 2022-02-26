@@ -65,7 +65,7 @@ def welcome():
     posts_data = get_posts_data(base_url)
     documents_data = get_documents(base_url)
     standard_data = {"title": "Crypto Society St. Gallen", 
-            "welcome_text": "The Crypto Society is the number one address for students in St. Gallen, interested in the topic of crypto and blockchain! Join up to meet like–minded people, get to know the industry and deepen your knowledge about crypto. The Society welcomes beginners as much as experts, so sign up either as a Society member, or join our Academics, Projects or Events team!",
+            "welcome_text": "The Crypto Society is a newly founded assosciation by students in St. Gallen. We strive to bring the emerging universe of cryptocurrencies closer to the students in St. Gallen. As laid out in our Whitepaper, we want to build a community and serve as a hub for all the local crypto-enthusiastic students! We warmly welcome anyone who wants to join the Crypto Society as a member, and would be happy to receive your application!",
             "member_link": "https://docs.google.com/forms/d/e/1FAIpQLSeP7INDPgUYb8nCraOel61WOgFn48dnii5fDMLcyTTBI8XIeg/viewform",
             "linked_in": "https://www.linkedin.com/company/cryptosocietystgallen/mycompany/",
             "instagram": "https://www.instagram.com/cryptosocietystgallen/",
@@ -73,6 +73,8 @@ def welcome():
             "nmembers": "45+",
             "associates": "150+",
             "followers": "100+",
+            "store_link": "https://www.etsy.com/ch/shop/CryptoSociety?ref=simple-shop-header-name&listing_id=1164741068",
+            "store_text": "The Crypto Society has launched its official store. Acquire the exclusive Crypto Society hoodies today, or check out our other creations!",
             "prices": {**get_prices()},
             "posts": {**posts_data},
             "documents": {**documents_data},
