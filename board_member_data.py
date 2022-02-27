@@ -52,7 +52,7 @@ def get_board_members(base_url):
         "name": "Mariska–Morgaine Rüger",
         "image": f'{base_url}images/position_images/staff.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/vice-chief-of-staff.png',
-        "short_description": "As Vice Chief of Staff, I am your first point of contact. I will make sure to help you if there are any issues or questions regarding to our society.",
+        "short_description": "As Vice Chief of Staff, I support Sanna Mühlemann in helping you out if any questions appear concerning our society. I try my best that you will have all informations you need.",
         "email": "vice-chief-of-staff@cryptosocietystgallen.club",
         "order": "6"
         },
