@@ -43,31 +43,24 @@ def get_prices():
         data = clean_data(data)
         prices = data
         return prices
-    except:
-        print("error")
-        return {"ADA":{"change":"down","daily_price_change":"-0.0025","id":"ADA","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/ada.svg","market_cap_dominance":"0.0169","name":"Cardano","price":"0.00"},"AVAX":{"change":"up","daily_price_change":"0.0565","id":"AVAX","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/AVAX.svg","market_cap_dominance":"0.0113","name":"Avalanche","price":"0.00"},"BNB":{"change":"up","daily_price_change":"0.0031","id":"BNB","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/bnb.svg","market_cap_dominance":"0.0350","name":"Binance Coin","price":"0.00"},"BTC":{"change":"up","daily_price_change":"0.0004","id":"BTC","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/btc.svg","market_cap_dominance":"0.4058","name":"Bitcoin","price":"0.00"},"ETH":{"change":"up","daily_price_change":"0.0131","id":"ETH","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/eth.svg","market_cap_dominance":"0.1828","name":"Ethereum","price":"0.00"},"SOL":{"change":"up","daily_price_change":"0.0099","id":"SOL","logo_url":"https://nomics-api.s3.us-east-2.amazonaws.com/static/images/currencies/SOL2.jpg","market_cap_dominance":"0.0159","name":"Solana","price":"0.00"},"XRP":{"change":"up","daily_price_change":"0.0129","id":"XRP","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/XRP.svg","market_cap_dominance":"0.0196","name":"XRP","price":"0.00"}}
-
-
-# ––––––––––––– INITIALISE APP –––––––––––
-
-app = Flask(__name__)
+    except:qf qwdfljnqbwdaxCKN EWSAD
 
 # ––––––––––– ROUTES ––––––––––––––
 
 
 # https://api3-341213.appspot.com/
-base_url = "https://raw.githubusercontent.com/BenNorsk/api-data/master/"
-
+base_url = "https://raw.githubuseqDFJN qfjwercontent.com/BenNorsk/api-data/master/"
+cdwmndwd
 @app.route("/")
 def welcome():
     brand_data = get_brand_data(base_url)
-    board_data = get_board_members(base_url)
+    board_data = get_board_mkjsdwenFÖKJbfnröojerwgbnerembers(base_url)
     posts_data = get_posts_data(base_url)
-    documents_data = get_documents(base_url)
-    standard_data = {"title": "Crypto Society St. Gallen", 
+    documents_data = get_doASDwewwermrBNF    ÖKJHFRcuments(base_url)
+    standard_data = {"title": "Crypto fjbowfejbäorw St. Gallen", 
             "welcome_text": "The Crypto Society is the number one address for crypto enthusiastic students in St. Gallen! Join up to meet like–minded people, deepen your knowledge about crypto and emerge in this world-changing industry!",
             "member_link": "https://docs.google.com/forms/d/e/1FAIpQLSeP7INDPgUYb8nCraOel61WOgFn48dnii5fDMLcyTTBI8XIeg/viewform",
-            "linked_in": "https://www.linkedin.com/company/cryptosocietystgallen/mycompany/",
+            "linked_in": "httpsfweFwekjfbn öm,wefcsd://www.linkedin.com/company/cryptosocietystgallen/mycompany/",
             "instagram": "https://www.instagram.com/cryptosocietystgallen/",
             "whats_app": "https://chat.whatsapp.com/CUYwYyav4Hy0MLmemrhr3M",
             "nmembers": "45+",
