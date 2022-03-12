@@ -13,28 +13,47 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 prices = {"ADA":{"change":"down","daily_price_change":"-0.0025","id":"ADA","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/ada.svg","market_cap_dominance":"0.0169","name":"Cardano","price":"1.01"},"AVAX":{"change":"up","daily_price_change":"0.0565","id":"AVAX","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/AVAX.svg","market_cap_dominance":"0.0113","name":"Avalanche","price":"88.11"},"BNB":{"change":"up","daily_price_change":"0.0031","id":"BNB","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/bnb.svg","market_cap_dominance":"0.0350","name":"Binance Coin","price":"397.71"},"BTC":{"change":"up","daily_price_change":"0.0004","id":"BTC","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/btc.svg","market_cap_dominance":"0.4058","name":"Bitcoin","price":"40838.48"},"ETH":{"change":"up","daily_price_change":"0.0131","id":"ETH","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/eth.svg","market_cap_dominance":"0.1828","name":"Ethereum","price":"2916.46"},"SOL":{"change":"up","daily_price_change":"0.0099","id":"SOL","logo_url":"https://nomics-api.s3.us-east-2.amazonaws.com/static/images/currencies/SOL2.jpg","market_cap_dominance":"0.0159","name":"Solana","price":"94.95"},"XRP":{"change":"up","daily_price_change":"0.0129","id":"XRP","logo_url":"https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/XRP.svg","market_cap_dominance":"0.0196","name":"XRP","price":"0.78"}}
 
-# def update_prices():
-#     api_key = 'ab4d9d5a55d9600d15ca26450ba9e6533dc496a5'
-#     url = f'https://api.nomics.com/v1/currencies/ticker?key={api_key}&ids=BTC,ETH,ADA,SOL,XRP,BNB,AVAX&interval=1d,30d&convert=USD'
-#     try:
-#         response = requests.get(url)
-#         data = response.json()
-#         data = clean_data(data)
-#         prices = data
-#         print("updated prices!")
-#         return "success"
-#     except:
-#         print("error")
-#         return "error"
-
-# update_prices()
-# sched = BackgroundScheduler(daemon=True)
-# sched.add_job(update_prices,'interval',minutes=120)
-# sched.start()
 
 # ––––––––––––– Get prices –––––––––––––
 
 def get_prices():
+    # FOR GIAN: 
+    # 
+    # Before you start, type:
+    # ______________________
+    # git checkout master
+    # git pull origin master
+    # git branch api-keys
+    # git checkout api-keys
+    # _____________________
+    # GENERAL INFORMATION:
+    # We use the Flask application framework. Hence our api is a flask app. To test our flask app locally, run 'flask run'
+    # Then you can see if it works by accessing the link your flask server serves you (127.0.0.1/)..
+
+    #
+    # Below you see our api key, with which we make api calls.
+    # The problem with the key is, that is has only a limited amount of requests we can do.
+    # Therefore, you should create many (at least 20) free API keys from the Nomics API, in make the API calls
+    # using these different keys. If one key expires (i.e. doesn't work anymore), make the program as such, that it 
+    # automatically uses the next key. Make sure that the program does not break down if no key works. Also, old keys
+    # that don't work anymore should be removed (or marked as deprecated)
+    # Now how do you do this?
+    # 1. create a txt or csv file containing all keys
+    # 2. Create a function, that reads the txt file into python
+    #    a. iterate over the valid keys
+    #    b. Make an API call with the first key.
+    #       I. If the key works, return the data about the prices
+    #       II. If the key doesn't work, delete it or mark it as invalid (hint: use try/except)
+    #    c. Should no key work, make sure that you return a dictionary of the same structure anyway (like I do below)
+    # 
+    # When you're done;
+    # Copy / paste your code to app.py
+    # then type:
+    # ______________________
+    # git add .
+    # git commit -m "finished api key tasks"
+    # git push origin api-keys
+
     api_key = 'ab4d9d5a55d9600d15ca26450ba9e6533dc496a5'
     url = f'https://api.nomics.com/v1/currencies/ticker?key={api_key}&ids=BTC,ETH,ADA,SOL,XRP,BNB,AVAX&interval=1d,30d&convert=USD'
     try:
