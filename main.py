@@ -26,6 +26,11 @@ def get_prices():
     # git branch api-keys
     # git checkout api-keys
     # _____________________
+    # GENERAL INFORMATION:
+    # We use the Flask application framework. Hence our api is a flask app. To test our flask app locally, run 'flask run'
+    # Then you can see if it works by accessing the link your flask server serves you (127.0.0.1/)..
+
+    #
     # Below you see our api key, with which we make api calls.
     # The problem with the key is, that is has only a limited amount of requests we can do.
     # Therefore, you should create many (at least 20) free API keys from the Nomics API, in make the API calls
@@ -41,7 +46,9 @@ def get_prices():
     #       II. If the key doesn't work, delete it or mark it as invalid (hint: use try/except)
     #    c. Should no key work, make sure that you return a dictionary of the same structure anyway (like I do below)
     # 
-    # When you're done, type:
+    # When you're done;
+    # Copy / paste your code to app.py
+    # then type:
     # ______________________
     # git add .
     # git commit -m "finished api key tasks"
