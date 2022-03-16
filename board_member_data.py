@@ -21,6 +21,15 @@ def get_board_members(base_url):
         "order": "2"
     },
     {
+        "title": "Head of the Judicial Committee",
+        "name": "Annina Schmid",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/annina.jpg',
+        "short_description": "As Head of the Judicial Committee, I serve the justice within the Society. You can disagree without being disagreeable!",
+        "email": "annina.schmid@student.unisg.ch",
+        "order": "2.1"
+        },
+    {
         "title": "Head of Legal Affairs",
         "name": "Jan Scherrer",
         "image": f'{base_url}images/position_images/legal-affairs.jpeg',
@@ -102,6 +111,15 @@ def get_board_members(base_url):
         "order": "11"
     },
     {
+        "title": "Academic Analyst",
+        "name": "Marlon Richter",
+        "image": f'{base_url}images/position_images/academic-affairs.jpeg',
+        "board_member_image": f'{base_url}images/board_member_images/marlon.jpg',
+        "short_description": "As Academic Analyst, I contribute to the mission of constant learning in the Society through research and presentations about current crypto related topics.",
+        "email": "marlon.richter@student.unisg.ch",
+        "order": "11"
+    },
+    {
         "title": "Head of Marketing",
         "name": "Sandro Gössi",
         "image": f'{base_url}images/position_images/marketing.jpeg',
@@ -135,6 +153,24 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/events_co_manager.png',
         "short_description": "As Events Co–Manager, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "laura.carrieri@student.unisg.ch",
+        "order": "15"
+        },
+    {
+        "title": "Co-Head Auditor",
+        "name": "Markus Wolf",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/markus.jpg',
+        "short_description": "As Co-Head Auditors, we keep our tabs on the board and ensure the financial integrity of the Society!",
+        "email": "markus.wolf2@student.unisg.ch",
+        "order": "15"
+        },
+    {
+        "title": "Co-Head Auditor",
+        "name": "Christian van Haastert",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/chris.jpg',
+        "short_description": "As Co-Head Auditors, we keep our tabs on the board and ensure the financial integrity of the Society!",
+        "email": "christian@vanhaastert.ch",
         "order": "15"
         }
     ]
