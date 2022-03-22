@@ -9,6 +9,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/president.jpeg',
         "short_description": "As President, I lead and assist the Board in growing and designing the society each and every day.",
         "email": "president@cryptosocietystgallen.club",
+        "division": "Presidential",
+        "colour": "#0098B7",
         "order": "1"
         },
         {
@@ -18,6 +20,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/vice-president.png',
         "short_description": "As Vice-President, I support and advise the president in his operative and strategic tasks. Together we lead and assist the Board in creating a growing cryptosociety.",
         "email": "vice-president@cryptosocietystgallen.club",
+        "division": "Presidential",
+        "colour": "#0098B7",
         "order": "2"
     },
     {
@@ -27,6 +31,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/annina.jpg',
         "short_description": "As Head of the Judicial Committee, I serve the justice within the Society. You can disagree without being disagreeable!",
         "email": "annina.schmid@student.unisg.ch",
+        "division": "Legal",
+        "colour": "#CC8214",
         "order": "2.1"
         },
     {
@@ -36,6 +42,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/legal-affairs.jpg',
         "short_description": "As Head of Legal Affairs, my responsibilities include inter alia the creation and management of all legal documents, the society’s official incorporation, and the appointment of the Judicial Committee.",
         "email": "legal-affairs@cryptosocietystgallen.club",
+        "division": "Legal",
+        "colour": "#CC8214",
         "order": "3"
     },
     {
@@ -45,6 +53,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/crypto-projects.png',
         "short_description": "As Head of Crypto Projects, I oversee the practical projects that the Society is developping in the real of crypto.",
         "email": "crypto-projects@cryptosocietystgallen.club",
+        "division": "Projects",
+        "colour": "#045A8C",
         "order": "4"
         },
     {
@@ -54,6 +64,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/staff.png',
         "short_description": "As Chief of Staff, I am your first point of contact. I will make sure to help you if there are any issues or questions regarding to our society.",
         "email": "chief-of-staff@cryptosocietystgallen.club",
+        "division": "Staff",
+        "colour": "#529839",
         "order": "5"
         },
     {
@@ -63,6 +75,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/vice-chief-of-staff.png',
         "short_description": "As Vice Chief of Staff, I support Sanna Mühlemann in helping you out if any questions appear concerning our society. I try my best that you will have all informations you need.",
         "email": "vice-chief-of-staff@cryptosocietystgallen.club",
+        "division": "Staff",
+        "colour": "#529839",
         "order": "6"
         },
     {
@@ -72,6 +86,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/finance.jpg',
         "short_description": "As Head of Finance, I am responsible for managing all financial affairs of the society as well as for the development of the finance department.",
         "email": "finance@cryptosocietystgallen.club",
+        "division": "Finance",
+        "colour": "#F1D600",
         "order": "7"
     },
     {
@@ -81,6 +97,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/academic-affairs.jpg',
         "short_description": "Together, we define how knowledge is shared throughout the society.",
         "email": "academic-affairs@cryptosocietystgallen.club",
+        "division": "Academics",
+        "colour": "#89609E",
         "order": "8"
     },
     {
@@ -90,6 +108,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/academic-affairs2.png',
         "short_description": "Together, we define how knowledge is shared throughout the society.",
         "email": "academic-affairs@cryptosocietystgallen.club",
+        "division": "Academics",
+        "colour": "#89609E",
         "order": "9"
     },
     {
@@ -99,6 +119,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/academic_analyst.png',
         "short_description": "Coming Soon.",
         "email": "johannes.hohl@student.unisg.ch",
+        "division": "Academics",
+        "colour": "#89609E",
         "order": "10"
     },
     {
@@ -108,6 +130,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/academic_analyst2.jpeg',
         "short_description": "As Academic Analyst, I work together with the Academic Affairs team in creating relevant and interesting content for our members.",
         "email": "raffaello.erculiani@student.unisg.ch",
+        "division": "Academics",
+        "colour": "#89609E",
         "order": "11"
     },
     {
@@ -117,6 +141,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/marlon.jpg',
         "short_description": "As Academic Analyst, I contribute to the mission of constant learning in the Society through research and presentations about current crypto related topics.",
         "email": "marlon.richter@student.unisg.ch",
+        "division": "Academics",
+        "colour": "#89609E",
         "order": "11"
     },
     {
@@ -126,6 +152,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/marketing.jpg',
         "short_description": "As Head of Marketing, I lead all marketing activities from social media, branding and digital campaigns to advertising and creative projects. Your vibe attracts your tribe!",
         "email": "marketing@cryptosocietystgallen.club",
+        "division": "Marketing",
+        "colour": "#AF4632",
         "order": "12"
     },
     {
@@ -135,6 +163,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/socials.jpg',
         "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "social-events@cryptosocietystgallen.club",
+        "division": "Events",
+        "colour": "#FF78CB",
         "order": "13"
         },
     {
@@ -144,6 +174,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/events2.jpg',
         "short_description": "As Co–Head of Events, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "events@cryptosocietystgallen.club",
+        "division": "Events",
+        "colour": "#FF78CB",
         "order": "14"
         },
     {
@@ -153,6 +185,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/events_co_manager.png',
         "short_description": "As Events Co–Manager, I contribute to the social platform of the society and I am determined to establish a pleasant environment of social exchange.",
         "email": "laura.carrieri@student.unisg.ch",
+        "division": "Events",
+        "colour": "#FF78CB",
         "order": "15"
         },
     {
@@ -162,6 +196,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/markus.jpg',
         "short_description": "As Co-Head Auditors, we keep our tabs on the board and ensure the financial integrity of the Society!",
         "email": "markus.wolf2@student.unisg.ch",
+        "division": "Audit",
+        "colour": "#555555",
         "order": "15"
         },
     {
@@ -171,6 +207,8 @@ def get_board_members(base_url):
         "board_member_image": f'{base_url}images/board_member_images/chris.jpg',
         "short_description": "As Co-Head Auditors, we keep our tabs on the board and ensure the financial integrity of the Society!",
         "email": "christian@vanhaastert.ch",
+        "division": "Audit",
+        "colour": "#555555",
         "order": "15"
         }
     ]
