@@ -7,7 +7,7 @@ def get_posts_data(base_url):
             {
                 "title": "Join our Photoshoot!",
                 "icon": f'{base_url}images/post_images/photoshoot-post/photoshoot-logo.png',
-                "image": f'{base_url}images/position_images/photoshoot.jpg',
+                "image": f'{base_url}images/post_images/photoshoot-post/photoshoot.jpg',
                 "author": "Benjamin L. Brückner & Gian O. Mühlemann",
                 "publication_date": "23.03.2022",
                 "content": "On the 30.03.2022, at 14:00, the Crypto Society will hold a photoshoot in front of the SQUARE. Every member and supporter is invited to come! If you want to get further updates, you are invited to also join our WhatsApp group.",
