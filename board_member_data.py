@@ -46,6 +46,16 @@ def get_board_members(base_url):
         "colour": "#CC8214",
         "order": "3"
     },
+        "title": "Lead of External Affairs & Legal Counsel",
+        "name": "Alice Messner",
+        "image": f'{base_url}images/position_images/legal-affairs.jpeg',
+        "board_member_image": f'{base_url}images/board_member_images/alice.jpeg',
+        "short_description": "As Lead External Affairs I manage the cooperation and communication with external partners of the Society. As Legal Counsel I assist the Head of Legal Affairs in his tasks.",
+        "email": "alice.messner@student.unisg.ch",
+        "division": "Legal",
+        "colour": "#CC8214",
+        "order": "3"
+    },
     {
         "title": "Head of Crypto Projects",
         "name": "Robert Jacobs",
