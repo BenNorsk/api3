@@ -5,6 +5,16 @@ from email.mime import base
 def get_posts_data(base_url):
     posts = [
             {
+                "title": "Listen to our Podcast!",
+                "icon": f'{base_url}images/post_images/podcast-post/inno-maker.png',
+                "image": f'{base_url}images/post_images/podcast-post/roger.jpeg',
+                "author": "Benjamin L. Brückner",
+                "publication_date": "04.04.2022",
+                "content": "Listen to our joint podcast with inno-maker, having Prof. Wattenhofer as guest. As a co-developer of the Lightning protocol, the renowned expert shares his views on the future of crypto in Switzerland.",
+                "link": "https://open.spotify.com/episode/0VTOA9lz2xiJwZAJMQi4fp?si=a72a557802d649d7",
+                "link_text": "Go To Spotify"
+            },
+            {
                 "title": "Join our Photoshoot!",
                 "icon": f'{base_url}images/post_images/photoshoot-post/photoshoot-logo.png',
                 "image": f'{base_url}images/post_images/photoshoot-post/photoshoot.jpg',
