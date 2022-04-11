@@ -4,6 +4,16 @@ from email.mime import base
 
 def get_posts_data(base_url):
     posts = [
+        {
+                "title": "Speaker Event",
+                "icon": f'{base_url}images/post_images/speaker-post/speaker.png',
+                "image": f'{base_url}images/post_images/speaker-post/speaker.png',
+                "author": "Davide Brunetti & Andre Lubawin",
+                "publication_date": "11.04.2022",
+                "content": "Join our speaker event at the 26.04.2022, 18:30, with Head of Marketing of Bitcoin Suisse, Marc Baumann, and CEO & founder of 4bridges, Simon Fundel. Free drinks and snack inclusive at the after social!",
+                "link": "https://eventfrog.ch/de/p/kurse-seminare/computer-edv/speaker-kick-off-6916729565620959977.html",
+                "link_text": "Tickets"
+            },
             {
                 "title": "Listen to our Podcast!",
                 "icon": f'{base_url}images/post_images/podcast-post/inno-maker.png',
