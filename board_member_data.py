@@ -212,6 +212,17 @@ def get_board_members(base_url):
         "order": "15"
         },
     {
+        "title": "Events Co–Manager",
+        "name": "Julian Schönbeck",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/julian.jpg',
+        "short_description": "As Events Co-Manager, my objective is to offer our community a variety of social platforms to connect, create and celebrate.",
+        "email": "julian.schoenbeck@hotmail.com",
+        "division": "Events",
+        "colour": "#FF78CB",
+        "order": "15"
+        },
+    {
         "title": "Co-Head Auditor",
         "name": "Markus Wolf",
         "image": f'{base_url}images/position_images/events2.jpg',
