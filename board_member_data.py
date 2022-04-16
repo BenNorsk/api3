@@ -168,6 +168,17 @@ def get_board_members(base_url):
         "order": "12"
     },
     {
+        "title": "Lead Fashion Design",
+        "name": "Simona Ramsperger",
+        "image": f'{base_url}images/position_images/marketing.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/simona.jpg',
+        "short_description": "As Lead Fashion Design, I help build and develop the Crypto Society’s brand!",
+        "email": "simona.ramsperger@student.unisg.ch",
+        "division": "Marketing",
+        "colour": "#AF4632",
+        "order": "12"
+    },
+    {
         "title": "Co–Head of Events",
         "name": "Davide Brunetti",
         "image": f'{base_url}images/position_images/socials.jpeg',
