@@ -9,6 +9,11 @@ def get_partners_data(base_url):
                 "name": "Die Ostschweiz",
                 "icon": f'{base_url}images/partners_images/die_ostschweiz.png',
                 "url": "https://www.dieostschweiz.ch/"
+        },
+        {
+                "name": "PerseedU",
+                "icon": f'{base_url}images/partners_images/perseedu.svg',
+                "url": "https://perseedu.com/"
         }
     ]
     return partners
