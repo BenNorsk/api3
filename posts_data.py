@@ -9,7 +9,7 @@ def get_posts_data(base_url):
                 "icon": f'{base_url}images/post_images/speaker-event-review-post/speaker_event_review.png',
                 "image": f'{base_url}images/post_images/speaker-event-review-post/speaker_event_review.png',
                 "author": "Davide Brunetti & Andre Lubawin",
-                "publication_date": "11.04.2022",
+                "publication_date": "20.05.2022",
                 "content": "Review our speaker event! Check out our latest speaker event, and make sure to step by the next time!",
                 "link": "https://www.instagram.com/p/CdYAASoFe2I/",
                 "link_text": "Video"
