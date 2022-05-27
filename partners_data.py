@@ -19,7 +19,12 @@ def get_partners_data(base_url):
                 "name": "Crypto Chefs",
                 "icon": f'{base_url}images/partners_images/crypto_chefs.png',
                 "url": "https://cryptochefs.io/"
-        }
+        },
+	{
+		"name": "Codos Foundation",
+		"icon": f'{base_url}images/partners_images/codos.jpeg',
+		"url": "https://codos.network/"
+	}
 
     ]
     return partners
