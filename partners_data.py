@@ -22,7 +22,7 @@ def get_partners_data(base_url):
         },
 	{
 		"name": "Codos Foundation",
-		"icon": f'{base_url}images/partners_images/codos.jpeg',
+		"icon": f'{base_url}images/partners_images/codos.png',
 		"url": "https://codos.network/"
 	}
 
