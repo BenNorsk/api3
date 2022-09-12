@@ -5,6 +5,16 @@ from email.mime import base
 def get_posts_data(base_url):
     posts = [
             {
+                "title": "Anonymous Cryptoholics Meeting",
+                "icon": f'{base_url}images/post_images/acm-post/acm.jpg',
+                "image": f'{base_url}images/post_images/acm-post/acm.jpg',
+                "author": "Jules Schönbeck",
+                "publication_date": "12.09.2022",
+                "content": "Join our fresher's week party! At the 14.09.2022, we will host the Anonymous Cryptoholics Meeting in the Garage Club in S. Gallen, with Maximilian I. as special gig! Get your tickets now!",
+                "link": "bit.ly/ACM-Earlybird",
+                "link_text": "Tickets!"
+            },
+            {
                 "title": "Review the Speaker Event",
                 "icon": f'{base_url}images/post_images/speaker-event-review-post/speaker_event_review.png',
                 "image": f'{base_url}images/post_images/speaker-event-review-post/speaker_event_review.png',
