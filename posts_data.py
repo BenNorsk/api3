@@ -4,6 +4,26 @@ from email.mime import base
 
 def get_posts_data(base_url):
     posts = [
+        {
+                "title": "Join our Bitcoin Suisse Visit!",
+                "icon": f'{base_url}images/post_images/btc-suisse-post/btc_suisse.png',
+                "image": f'{base_url}images/post_images/btc-suisse-post/btc_suisse.png',
+                "author": "Sandro Gössi",
+                "publication_date": "26.09.2022",
+                "content": "On the 05.10.2022, we will have a visit with Bitcoin Suisse. Join us by signing up, there are only a few spots left!",
+                "link": "https://forms.gle/wfgSEfxMAeMvzDxu8",
+                "link_text": "Register!"
+            },
+            {
+                "title": "Review the Anonymous Cryptoholics Meeting!",
+                "icon": f'{base_url}images/post_images/acm-post/acm.jpg',
+                "image": f'{base_url}images/post_images/acm-post/acm.jpg',
+                "author": "Sandro Gössi",
+                "publication_date": "26.09.2022",
+                "content": "Our ACM party was a total success! With over 400 people, and Maximilian I. as a special gig, it was the perfect start into the new semester! Check out the review video!",
+                "link": "https://www.instagram.com/p/Ci9oInxvBaq/",
+                "link_text": "See the Review Video!"
+            },
             {
                 "title": "General Assembly & Elections",
                 "icon": f'{base_url}images/post_images/speaker-post/speaker.png',
