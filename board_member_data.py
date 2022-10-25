@@ -27,7 +27,7 @@ def get_board_members(base_url):
         "organ": "board"
     },
     {
-        "title": "Lead of Legal & External Affairs",
+        "title": "Head of Legal & External Affairs",
         "name": "Alice Messner",
         "image": f'{base_url}images/position_images/legal-affairs.jpeg',
         "board_member_image": f'{base_url}images/board_member_images/alice.jpeg',
