@@ -4,6 +4,17 @@ from email.mime import base
 
 def get_posts_data(base_url):
     posts = [
+        
+        {
+                "title": "Review our NEON party!",
+                "icon": f'{base_url}images/post_images/neon.jpeg',
+                "image": f'{base_url}images/post_images/neon.jpeg',
+                "author": "Jules Schönbeck",
+                "publication_date": "14.10.2022",
+                "content": "Check out our NEON party, and stay tuned for more Crypto Society parties to come at the Garage in St. Gallen!",
+                "link": "https://www.instagram.com/p/CjzrB0ptDzF/",
+                "link_text": "See Video!"
+            },
         {
                 "title": "Join our Bitcoin Suisse Visit!",
                 "icon": f'{base_url}images/post_images/btc-suisse-post/btc_suisse.png',
