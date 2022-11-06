@@ -61,7 +61,55 @@ def get_board_members(base_url):
         "colour": "#FF78CB",
         "order": "15",
         "organ": "board"
-    }, 
+    },
+    {
+        "title": "Events Co-Manager",
+        "name": "Alexander Moldovan",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/alexander.jpeg',
+        "short_description": "As a member of the Event-Team, I help to create fun filled and engaging opportunities for like-minded individuals to connect and share unforgettable moments.",
+        "email": "alexander.moldovan@student.unisg.ch",
+        "division": "Events",
+        "colour": "#FF78CB",
+        "order": "15",
+        "organ": "board"
+    },
+    {
+        "title": "Events Co-Manager",
+        "name": "Nicolas Winnewisser",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/nicolas.jpeg',
+        "short_description": "My goal as a member of the Event-Team is to build our community trough organic growth to enable likeminded people to meet on one of our networking platforms and further promote our events.",
+        "email": "nicolas.winnewisser@student.unisg.ch",
+        "division": "Events",
+        "colour": "#FF78CB",
+        "order": "15",
+        "organ": "board"
+    },
+    {
+        "title": "Events Co-Manager",
+        "name": "Pascal Blaser",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/pascal.jpeg',
+        "short_description": "Coming up with new and innovative ideas for events to push the recognition of the Crypto Society St. Gallen.",
+        "email": "events@cryptosocietystgallen.club",
+        "division": "Events",
+        "colour": "#FF78CB",
+        "order": "15",
+        "organ": "board"
+    },
+    {
+        "title": "Events Co-Manager",
+        "name": "Nikolai Michel",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/nikolai.jpeg',
+        "short_description": "As a member of the event-team, I am willing to do everything in my power to provide you with to host an unforgettable evening for our guest.",
+        "email": "nikolai.michel@student.unisg.ch",
+        "division": "Events",
+        "colour": "#FF78CB",
+        "order": "15",
+        "organ": "board"
+    },
     {
         "title": "Head of Academic Affairs",
         "name": "Davide Brunetti",
