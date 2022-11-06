@@ -111,6 +111,30 @@ def get_board_members(base_url):
         "organ": "board"
     },
     {
+        "title": "Events Co-Manager",
+        "name": "Laurin Mengis",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/laurin.jpeg',
+        "short_description": "As part of the Event-Team, my goal is to organize social gatherings for our community to make new acquaintances, find inspiration and let loose!",
+        "email": "laurin.mengis@student.unisg.ch",
+        "division": "Events",
+        "colour": "#FF78CB",
+        "order": "15",
+        "organ": "board"
+    },
+    {
+        "title": "Events Co-Manager",
+        "name": "Phillip Schmid",
+        "image": f'{base_url}images/position_images/events2.jpg',
+        "board_member_image": f'{base_url}images/board_member_images/phillip.jpeg',
+        "short_description": "As part of the Event-Team, my goal is as well to organize social gatherings for our community to make new acquaintances, find inspiration and let loose!",
+        "email": "phillip.schmid@student.unisg.ch",
+        "division": "Events",
+        "colour": "#FF78CB",
+        "order": "15",
+        "organ": "board"
+    },
+    {
         "title": "Head of Academic Affairs",
         "name": "Davide Brunetti",
         "image": f'{base_url}images/position_images/socials.jpeg',
