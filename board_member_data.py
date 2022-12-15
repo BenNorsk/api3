@@ -195,6 +195,18 @@ def get_board_members(base_url):
         "organ": "board"
     },
     {
+        "title": "Head of Finance",
+        "name": "Lukas McKenzie",
+        "image": f'{base_url}images/position_images/marketing.jpeg',
+        "board_member_image": f'{base_url}images/board_member_images/lukas.jpeg',
+        "short_description": "As Head of Finance, I take care of the financial wellbeing of our Society!",
+        "email": "finance@cryptosocietystgallen.club",
+        "division": "Finance",
+        "colour": "#AF4632",
+        "order": "12",
+        "organ": "board"
+    },
+    {
         "title": "Head of the Judicial Committee",
         "name": "Benjamin L. Brückner",
         "image": f'{base_url}images/position_images/president.jpeg',
