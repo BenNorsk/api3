@@ -4,6 +4,16 @@ from email.mime import base
 
 def get_posts_data(base_url):
     posts = [
+        {
+                "title": "Join our Workshop!",
+                "icon": f'{base_url}images/post_images/web3workshop.jpeg',
+                "image": f'{base_url}images/post_images/web3workshop.jpeg',
+                "author": "Gian & Sanna Mühlemann",
+                "publication_date": "21.03.2023",
+                "content": "Join us for an exciting company visit and Web3 workshop hosted by 4bridges on the 30.03.23. We'll be exploring topics like Smart Wallets and NFTs, with a presentation by Bruno Kellenberger, CEO of KYC Spider.",
+                "link": "https://form.jotform.com/230593317294055?fbclid=PAAabI2PBlTq867_9rPU52KVFJsOSuLHqUE1WQ6cV3J7CD2JXbu9f7epMjDyk",
+                "link_text": "Register Here!"
+            },
         
         {
                 "title": "Review our NEON party!",
