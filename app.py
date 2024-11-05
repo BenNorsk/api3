@@ -1,14 +1,10 @@
-from flask import Flask, flash, request, redirect, url_for
+from flask import Flask
 import requests
-import json
-import os
 from module import clean_data, get_brand_data
 from board_member_data import get_board_members
 from posts_data import get_posts_data
 from document_data import get_documents
 from partners_data import get_partners_data
-from werkzeug.utils import secure_filename
-from apscheduler.schedulers.background import BackgroundScheduler
 
 # –––––––––––– GET PRICES ––––––––––––––
 
