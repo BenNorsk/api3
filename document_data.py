@@ -7,6 +7,11 @@ def get_documents(base_link):
             "publication_date": "12.12.2021",
             "link": f'{base_link}documents/constitution.pdf'
         },
+        "general_assembly_2024": {
+            "title": "General Assembly 2024",
+            "publication_date": "05.11.2024",
+            "link": f'{base_link}documents/ga_2024.pdf'
+        },
         "general_assembly_2022": {
             "title": "General Assembly 2022",
             "publication_date": "08.02.2022",

@@ -5,6 +5,16 @@ from email.mime import base
 def get_posts_data(base_url):
     posts = [
         {
+                "title": "Relaunch with our new Board!",
+                "icon": f'{base_url}images/post_images/speaker-post/speaker.png',
+                "image": f'{base_url}images/post_images/speaker-post/speaker.png',
+                "author": "Julian Schönbeck",
+                "publication_date": "05.11.2024",
+                "content": "We are happy to announce a relaunch of the Crypto Society with our new board led by Laurin and Patrick. We are looking forward to a great semester with exciting events and workshops. Join us!",
+                "link": "https://chat.whatsapp.com/CUYwYyav4Hy0MLmemrhr3M",
+                "link_text": "Join us!"
+            },
+        {
                 "title": "Join our Workshop!",
                 "icon": f'{base_url}images/post_images/web3workshop.jpeg',
                 "image": f'{base_url}images/post_images/web3workshop.jpeg',
